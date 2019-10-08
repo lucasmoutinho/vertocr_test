@@ -1,3 +1,7 @@
+# To install tesserocr: 
+# $ apt-get install tesseract-ocr libtesseract-dev libleptonica-dev pkg-config
+# $ pip install tesserocr
+
 from tesserocr import PyTessBaseAPI
 
 images = ['sample1.jpg', 'sample2.jpg', 'sample3.jpg']
