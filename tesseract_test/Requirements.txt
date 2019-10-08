@@ -1,0 +1,4 @@
+Tesseract OCR. — Instruções para a instalação no seu ambiente https://github.com/tesseract-ocr/tesseract/wiki. IMPORTANTE: Tenha a certeza de incluir na instalação o suporte a linguagem ‘portuguese’.
+pytesseract. — pip install pytesseract.
+numpy. — pip install numpy.
+Pillow. — pip install pillow.
