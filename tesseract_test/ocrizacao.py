@@ -14,7 +14,7 @@ outfile = "out_text.txt"
 f = open(outfile, "w") 
 
 # Set filename to recognize text from 
-filename = "cnh-carteira-nacional-habilitacao" + ".jpg"
+filename = "cnh-carteira-nacional-habilitacao_recorte_3" + ".jpg"
     
 # Recognize the text as string in image using pytesserct 
 text = str(((ocr.image_to_string(Image.open(filename), lang="por")))) 
