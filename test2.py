@@ -8,8 +8,11 @@ import tesserocr
 print(tesserocr.tesseract_version())  # print tesseract-ocr version
 print(tesserocr.get_languages())  # prints tessdata path and list of available languages
 
-# or
-print('------------------------------------------------------')
-print()
-print(tesserocr.file_to_text('sample3.jpg'))
-print()
+images = ['sample1.jpg', 'sample2.jpg', 'sample3.jpg', 'sample4.jpg', 'sample5.jpg', 'sample6.jpg']
+
+for img in images:
+    print('------------------------------------------------------')
+    print(img.capitalize())
+    print()
+    print(tesserocr.file_to_text(img))
+    print()
